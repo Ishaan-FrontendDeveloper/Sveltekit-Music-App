@@ -1,19 +1,15 @@
-<div class="flex p-4" >
+<div class="flex  flex-col p-4 m-4 gap-3" >
+  
+  <h3 class="h3">Personal</h3>
   <ul class='list'>
     <li>
-      hi
+      <a href='/abt'>About</a>
     </li>
     <li>
-      i
+      <a href='https://github.com/Ishaan-FrontendDeveloper/Sveltekit-Music-App/'>Project repo</a>
     </li>
-    <li>
-      love
-    </li>
-    <li>
-      you
-    </li>
-  </ul>
-  <ul class='list'>
-  </ul>
+    
+ </ul>
+ 
 
 </div>
