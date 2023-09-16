@@ -1,4 +1,4 @@
-<div class="flex  flex-col p-4 m-4 gap-3" >
+<div class="flex  flex-col p-4  gap-3" >
   
   <h3 class="h3">Personal</h3>
   <ul class='list'>

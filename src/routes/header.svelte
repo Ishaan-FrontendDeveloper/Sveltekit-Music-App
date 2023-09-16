@@ -2,6 +2,8 @@
   import SideTop from './sidetop.svelte'
   import SideMid from './sidemid.svelte'
   import {AppBar} from '@skeletonlabs/skeleton'
+import {LightSwitch} from '@skeletonlabs/skeleton'
+
   import {initializeStores,Drawer,getDrawerStore} from '@skeletonlabs/skeleton'
 //Setting up Drawer
   initializeStores();
@@ -58,6 +60,8 @@ function drawerClose(): void {
         <li class="">
          <a class="" href ='/log'>  Log in </a>
         </li>
+        <li> <LightSwitch/>
+            </li>
       </ul>
       </div>
     </svelte:fragment>

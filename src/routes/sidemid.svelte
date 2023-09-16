@@ -1,7 +1,7 @@
 <script lang='ts'>
   import {AppShell,AppBar} from '@skeletonlabs/skeleton'
 </script>
-<AppShell class="my-3   p-2 gap-3 text-center rounded-md bg-zinc-900 ">
+<AppShell class="my-3 w-auto h-96 p-2 gap-3 text-center rounded-md bg-zinc-900 ">
   
 
 	<svelte:fragment slot="pageHeader">
@@ -17,7 +17,12 @@
     </div>
   </svelte:fragment>
 	<!-- Router Slot -->
-
+  <div class="card">
+    playlist
+  </div>
+  <div  class='card'>
+    podcast
+  </div>
 	<!-- ---- / ---- -->
 	<svelte:fragment slot="pageFooter">Page Footer</svelte:fragment>
 	<!-- (footer) -->
