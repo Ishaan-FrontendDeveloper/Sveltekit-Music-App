@@ -1,8 +1,9 @@
 <script lang="ts">
   import SideTop from './sidetop.svelte'
   import SideMid from './sidemid.svelte'
+  import Footer from './footer.svelte'
   import {AppBar} from '@skeletonlabs/skeleton'
-import {LightSwitch} from '@skeletonlabs/skeleton'
+
 
   import {initializeStores,Drawer,getDrawerStore} from '@skeletonlabs/skeleton'
 //Setting up Drawer
@@ -13,13 +14,13 @@ import {LightSwitch} from '@skeletonlabs/skeleton'
 
   })
 function drawerClose(): void {
-     drawerStore.close();
+     DrawerStore.close();
 }
 
 </script>
-<Drawer class="flex">
-  <ul>
-  <li ><button on:click={drawerClose}><SideTop/></button></li>
+<Drawer>
+  <ul class="flex flex-col p-3 gap-3">
+  <li class="flex gap-3"><button on:click={drawerClose}><SideTop/></button><Footer/></li>
   <li><SideMid/></li>
   </ul>
 </Drawer>
@@ -46,7 +47,7 @@ function drawerClose(): void {
   </svg>
         </button>
     </div></svelte:fragment>
-    lod
+  Title
 	<svelte:fragment slot="trail">
       <div class='flex gap-3 text-gray-400 lg:text-center '>
       <ul class="flex content-center gap-3 ">
@@ -60,8 +61,7 @@ function drawerClose(): void {
         <li class="">
          <a class="" href ='/log'>  Log in </a>
         </li>
-        <li> <LightSwitch/>
-            </li>
+        
       </ul>
       </div>
     </svelte:fragment>

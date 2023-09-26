@@ -1,8 +1,8 @@
 <script lang='ts'>
   import {AppShell,AppBar} from '@skeletonlabs/skeleton'
 </script>
-<AppShell class="my-3 w-auto h-96 p-2 gap-3 text-center rounded-md bg-zinc-900 ">
-  
+<AppShell class="my-3 w-72  h-2/3 p-3 gap-5 text-center rounded-md bg-zinc-900 ">
+
 
 	<svelte:fragment slot="pageHeader">
     <div class='flex gap-3 justify-between'>
@@ -17,14 +17,18 @@
     </div>
   </svelte:fragment>
 	<!-- Router Slot -->
-  <div class="card">
-    playlist
+  <div class="card p-3 my-2">
+    <p class='font-bold text-xl'>Create your first playlist</p>
+    <p>It's as easy as clicking on the button below!</p>
+    <button class="">Create Playlist</button>
   </div>
-  <div  class='card'>
-    podcast
+  <div  class='card p-3 my-2'>
+    <p class='font-bold text-xl'>Let's find some podcasts to follow</p>
+    <p>We'll keep you updated ;) </p>
+    <button class="">Browse Podcasts</button>
   </div>
-	<!-- ---- / ---- -->
-	<svelte:fragment slot="pageFooter">Page Footer</svelte:fragment>
-	<!-- (footer) -->
-</AppShell>
+	</AppShell>
+
+
+
 

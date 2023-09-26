@@ -8,7 +8,7 @@ function drawerClose(): void {
      drawerStore.close();
 }
 </script>
-<AppShell class="flex flex-col my-2 justify-center items-stretch p-2   content-center text-center rounded-md bg-zinc-900  ">
+<AppShell class="flex flex-col my-2 justify-center items-stretch p-2   content-center text-center rounded-md bg-zinc-900 w-72 ">
 	<svelte:fragment slot="pageHeader">
   <a class="flex content-center p-3 gap-3" href='/'>
    <svg class="w-[32px] h-[32px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 16">

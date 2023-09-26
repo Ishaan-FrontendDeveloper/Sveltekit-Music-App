@@ -1,5 +1,5 @@
-<main class="m-2">
-<div class="block">
+<main class="m-2   ">
+<div class="">
 <h3 class="m-2 p-2 flex justify-between content-between"><button class="btn h3">Trending playlists</button><button class="btn">show more</button></h3>
 </div>
 <hr class="mx-8"/>

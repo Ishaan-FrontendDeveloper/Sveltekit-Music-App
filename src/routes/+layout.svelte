@@ -12,7 +12,7 @@
   import Footer from './footer.svelte'
   import SideBar from './sidebar.svelte'
   </script>
- <AppShell class=" p-3 " regionPage="relative" slotPageHeader="sticky top-0 z-10" slotSidebarLeft="bg-surface-800/5 w-0 lg:w-72">
+ <AppShell class=" p-3 select-none" regionPage="relative" slotPageHeader="sticky top-0 z-10" slotSidebarLeft="bg-surface-800/5 w-0 lg:w-72">
 	<!-- (header) -->
 	<svelte:fragment slot="sidebarLeft">
      <SideBar/> 
