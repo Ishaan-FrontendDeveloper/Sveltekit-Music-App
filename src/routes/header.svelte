@@ -47,7 +47,7 @@ function drawerClose(): void {
   </svg>
         </button>
     </div></svelte:fragment>
-  Title
+
 	<svelte:fragment slot="trail">
       <div class='flex gap-3 text-gray-400 lg:text-center '>
       <ul class="flex content-center gap-3 ">
